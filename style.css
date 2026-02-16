@@ -1,9 +1,3 @@
-/** {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    !*box-sizing: border-box;*!*/
-/*}*/
-
 html {
     padding: 0px;
     margin: 0px;
@@ -37,7 +31,6 @@ footer {
     text-align: center;
     background-color: rgb(19, 29, 41);
     padding: 30px;
-    /*padding-bottom: ;*/
 }
 
 h1 {
@@ -51,7 +44,6 @@ h5 {
     font-size: 20px;
     margin: 7px;
     color: rgb(218, 232, 248);
-    /*width: 100px;*/
 }
 
 h6 {
@@ -83,49 +75,27 @@ li {
     display: grid;
     position: relative;
     margin: auto;
-    /*margin-right: max(50% - 30px, 25%);*/
 }
 
 .main__minus {
     position: absolute;
     background-color: rgb(213, 227, 243);
-    /*margin-left: 0;*/
-    /*margin-right: auto;*/
     top: -3px;
     width: 30px;
-    /*width: 80%;*/
     height: 6px;
-    /*margin-bottom: auto;*/
-    /*margin-top: auto;*/
-    /*align: center;*/
     border-radius: 10px;
-    /*margin: auto;*/
-    /*margin-right: 20%;*/
     cursor: pointer;
-    /*z-index: 1;*/
 }
 
 .main__plus {
     position: absolute;
     background-color: rgb(213, 227, 243);
-    /*margin-left: 0;*/
-    /*margin-right: auto;*/
-    /*top: -3px;*/
     height: 30px;
-    /*height: 80%;*/
-    /*width: 80%;*/
     width: 6px;
     top: -15px;
     left: 12px;
-    /*margin-bottom: auto;*/
-    /*margin-top: auto;*/
-    /*align: center;*/
     border-radius: 10px;
-    /*margin: auto;*/
-    /*margin-right: 20%;*/
-    /*margin-left: 0%;*/
     cursor: pointer;
-    /*z-index: 2;*/
 }
 
 .main__plus.hidden {
@@ -136,6 +106,10 @@ li {
 .main__plus.displayed {
     transform: scale(1);
     transition: all 0.3s ease;
+}
+
+a {
+    color: #ffffff;
 }
 
 a:visited {
