@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Структуры данных</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Структуры данных - асимптотика операций</h1>
+    </header>
+
+    <div class="main">
+        <ul>
+            <li>
+                <h5>Массив</h5>
+                <div class="main__plusminus">
+                    <div class="main__minus" onclick="showO_notation(this)"></div>
+                    <div class="main__plus" onclick="showO_notation(this)"></div>
+                </div>
+                <div class="main__O-notation">
+                    <h6>В среднем: </h6>
+                    <p>Индексация - <span class="main__O-notation--good">O(1)</span></p>
+                    <p>Поиск - <span class="main__O-notation--bad">O(n)</span></p>
+                    <p>Вставка - <span class="main__O-notation--None">None</span></p>
+                    <p>Удаление - <span class="main__O-notation--None">None</span></p>
+
+                    <h6>В худшем: </h6>
+                    <p>Индексация - <span class="main__O-notation--good">O(1)</span></p>
+                    <p>Поиск - <span class="main__O-notation--bad">O(n)</span></p>
+                    <p>Вставка - <span class="main__O-notation--None">None</span></p>
+                    <p>Удаление - <span class="main__O-notation--None">None</span></p>
+                </div>
+            </li>
+            <li>
+                <h5>Вектор</h5>
+                <div class="main__plusminus">
+                    <div class="main__minus" onclick="showO_notation(this)"></div>
+                    <div class="main__plus" onclick="showO_notation(this)"></div>
+                </div>
+                <div class="main__O-notation">
+                    <h6>В среднем: </h6>
+                    <p>Индексация - <span class="main__O-notation--good">O(1)</span></p>
+                    <p>Поиск - <span class="main__O-notation--bad">O(n)</span></p>
+                    <p>Вставка - <span class="main__O-notation--bad">O(n)</span></p>
+                    <p>Удаление - <span class="main__O-notation--bad">O(n)</span></p>
+
+                    <h6>В худшем: </h6>
+                    <p>Индексация - <span class="main__O-notation--good">O(1)</span></p>
+                    <p>Поиск - <span class="main__O-notation--bad">O(n)</span></p>
+                    <p>Вставка - <span class="main__O-notation--bad">O(n)</span></p>
+                    <p>Удаление - <span class="main__O-notation--bad">O(n)</span></p>
+                </div>
+            </li>
+            <li>
+                <h5>Список</h5>
+                <div class="main__plusminus">
+                    <div class="main__minus" onclick="showO_notation(this)"></div>
+                    <div class="main__plus" onclick="showO_notation(this)"></div>
+                </div>
+                <div class="main__O-notation">
+                    <h6>В среднем: </h6>
+                    <p>Индексация - <span class="main__O-notation--bad">O(n)</span></p>
+                    <p>Поиск - <span class="main__O-notation--bad">O(n)</span></p>
+                    <p>Вставка - <span class="main__O-notation--good">O(1)</span></p>
+                    <p>Удаление - <span class="main__O-notation--good">O(1)</span></p>
+
+                    <h6>В худшем: </h6>
+                    <p>Индексация - <span class="main__O-notation--bad">O(n)</span></p>
+                    <p>Поиск - <span class="main__O-notation--bad">O(n)</span></p>
+                    <p>Вставка - <span class="main__O-notation--good">O(1)</span></p>
+                    <p>Удаление - <span class="main__O-notation--good">O(1)</span></p>
+                </div>
+            </li>
+            <li>
+                <h5>Стек</h5>
+                <div class="main__plusminus">
+                    <div class="main__minus" onclick="showO_notation(this)"></div>
+                    <div class="main__plus" onclick="showO_notation(this)"></div>
+                </div>
+                <div class="main__O-notation">
+                    <h6>В среднем: </h6>
+                    <p>Индексация - <span class="main__O-notation--None">None</span></p>
+                    <p>Поиск - <span class="main__O-notation--None">None</span></p>
+                    <p>Вставка - <span class="main__O-notation--good">O(1)</span></p>
+                    <p>Удаление - <span class="main__O-notation--good">O(1)</span></p>
+
+                    <h6>В худшем: </h6>
+                    <p>Индексация - <span class="main__O-notation--None">None</span></p>
+                    <p>Поиск - <span class="main__O-notation--None">None</span></p>
+                    <p>Вставка - <span class="main__O-notation--good">O(1)</span></p>
+                    <p>Удаление - <span class="main__O-notation--good">O(1)</span></p>
+                </div>
+            </li>
+            <li>
+                <h5>Очередь</h5>
+                <div class="main__plusminus">
+                    <div class="main__minus" onclick="showO_notation(this)"></div>
+                    <div class="main__plus" onclick="showO_notation(this)"></div>
+                </div>
+                <div class="main__O-notation">
+                    <h6>В среднем: </h6>
+                    <p>Индексация - <span class="main__O-notation--None">None</span></p>
+                    <p>Поиск - <span class="main__O-notation--bad">O(n)</span></p>
+                    <p>Вставка - <span class="main__O-notation--good">O(1)</span></p>
+                    <p>Удаление - <span class="main__O-notation--good">O(1)</span></p>
+
+                    <h6>В худшем: </h6>
+                    <p>Индексация - <span class="main__O-notation--None">None</span></p>
+                    <p>Поиск - <span class="main__O-notation--bad">O(n)</span></p>
+                    <p>Вставка - <span class="main__O-notation--good">O(1)</span></p>
+                    <p>Удаление - <span class="main__O-notation--good">O(1)</span></p>
+                </div>
+            </li>
+            <li>
+                <h5>Дерево</h5>
+                <div class="main__plusminus">
+                    <div class="main__minus" onclick="showO_notation(this)"></div>
+                    <div class="main__plus" onclick="showO_notation(this)"></div>
+                </div>
+                <div class="main__O-notation">
+                    <h6>В среднем: </h6>
+                    <p>Индексация - <span class="main__O-notation--None">None</span></p>
+                    <p>Поиск - <span class="main__O-notation--mean">O(log(n))</span></p>
+                    <p>Вставка - <span class="main__O-notation--mean">O(log(n))</span></p>
+                    <p>Удаление - <span class="main__O-notation--mean">O(log(n))</span></p>
+
+                    <h6>В худшем: </h6>
+                    <p>Индексация - <span class="main__O-notation--None">None</span></p>
+                    <p>Поиск - <span class="main__O-notation--bad">O(n)</span></p>
+                    <p>Вставка - <span class="main__O-notation--bad">O(n)</span></p>
+                    <p>Удаление - <span class="main__O-notation--bad">O(n)</span></p>
+                </div>
+            </li>
+            <li>
+                <h5>Хеш-таблица</h5>
+                <div class="main__plusminus">
+                    <div class="main__minus" onclick="showO_notation(this)"></div>
+                    <div class="main__plus" onclick="showO_notation(this)"></div>
+                </div>
+                <div class="main__O-notation">
+                    <h6>В среднем: </h6>
+                    <p>Индексация - <span class="main__O-notation--None">None</span></p>
+                    <p>Поиск - <span class="main__O-notation--good">O(1)</span></p>
+                    <p>Вставка - <span class="main__O-notation--good">O(1)</span></p>
+                    <p>Удаление - <span class="main__O-notation--good">O(1)</span></p>
+
+                    <h6>В худшем: </h6>
+                    <p>Индексация - <span class="main__O-notation--None">None</span></p>
+                    <p>Поиск - <span class="main__O-notation--good">O(1)</span></p>
+                    <p>Вставка - <span class="main__O-notation--good">O(1)</span></p>
+                    <p>Удаление - <span class="main__O-notation--good">O(1)</span></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>Автор: <a href="https://github.com/Nikita-bite">Никита Филиппов</a></p>
+
+    </footer>
+
+    <script>
+        function showO_notation(sign) {
+            const parent = sign.parentElement;
+            const grandParent = parent.parentElement;
+            const target_O_notation = grandParent.querySelector('.main__O-notation');
+            if (target_O_notation.style.display === 'block') {
+                target_O_notation.style.display = 'none';
+                if (sign.classList.contains('main__plus')) {
+                    sign.classList.remove('hidden');
+                    sign.classList.add('displayed');
+                } else if (sign.classList.contains('main__minus')) {
+                    const plus = parent.querySelector('.main__plus');
+                    plus.classList.remove('hidden');
+                    plus.classList.add('displayed');
+                }
+            } else {
+                target_O_notation.style.display = 'block';
+                if (sign.classList.contains('main__plus')) {
+                    sign.classList.remove('displayed');
+                    sign.classList.add('hidden');
+                } else if (sign.classList.contains('main__minus')) {
+                    const plus = parent.querySelector('.main__plus');
+                    plus.classList.remove('displayed');
+                    plus.classList.add('hidden');
+                }
+            }
+
+        }
+    </script>
+</body>
+</html>
