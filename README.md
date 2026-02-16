@@ -1,2 +1,2 @@
 # Тестовый сайт для Internet технологий 
-посмотреть можно через github pages
+Посмотреть можно через [github pages](https://nikita-bite.github.io/test_lab_web/)
